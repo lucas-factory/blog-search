@@ -1,6 +1,8 @@
 # Blog Search 프로젝트
 
 검색 오픈 API를 활용해서 통합 인터페이스로 검색과 데일리 인기 검색어 API를 제공합니다.
+- Kakao Open API : https://developers.kakao.com/docs/latest/ko/daum-search/dev-guide#search-doc
+- Naver Open API : https://developers.naver.com/docs/serviceapi/search/blog/blog.md
 
 ## Quick Start
 
