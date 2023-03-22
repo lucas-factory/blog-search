@@ -1,0 +1,6 @@
+dependencies {
+    implementation 'org.springframework.retry:spring-retry'
+    implementation 'org.springframework:spring-aspects'
+    runtimeOnly 'com.h2database:h2'
+    implementation project(':search-core')
+}
