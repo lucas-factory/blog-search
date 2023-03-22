@@ -1,5 +1,6 @@
 package com.lucas.platform.searchcore.common.resopnse;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -56,6 +57,7 @@ public class SearchWebRes {
         return this;
     }
 
+    @JsonIgnore
     public String getPublisher() {
         return meta.publisher;
     }
